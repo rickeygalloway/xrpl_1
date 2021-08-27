@@ -29,7 +29,7 @@ api.on('connected', async () => {
   const preparedTx = await api.prepareTransaction({
     "TransactionType": "Payment",
     "Account": 'raYFT7xps8qKWVZHpGpNMxDAgvpPgJV6Hv',
-    "Amount": api.xrpToDrops("10"), // Same as "Amount": "22000000"
+    "Amount": api.xrpToDrops("25"), // Same as "Amount": "22000000"
     "Destination": "r4vbUV15cmzJWXrqVgC7PtjTNSk5vbxS2N"
   }, {
     // Expire this transaction if it doesn't execute within ~5 minutes:
@@ -56,5 +56,8 @@ console.log("Signed blob:", tx_blob)
   const result = await api.submit(tx_blob)
   console.log("Tentative result code:", result.resultCode)
   console.log("Tentative result message:", result.resultMessage)
+
+  //clean
+api.disconnect();
 
 });
