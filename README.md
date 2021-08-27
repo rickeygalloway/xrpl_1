@@ -21,5 +21,7 @@ https://xrpl.org/xrp-testnet-faucet.html
 
 https://test.xrptoolkit.com
 
+https://testnet.xrpl.org/
+
 # Info
 All information in the code is test data - all addresses, keys, and balances
