@@ -2,7 +2,7 @@
 
 XRP LEDGER
 
-Working through Node.js and the XRP Ledger
+Working on my first Node.js / XRP Ledger project.
 
 # Reading Account Information 
 ```shell
