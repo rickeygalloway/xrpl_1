@@ -15,8 +15,10 @@ node .\send.js
 ```
 
 # Usefull Links
-https://xrpl.org/s
+https://xrpl.org/
+
 https://xrpl.org/xrp-testnet-faucet.html
+
 https://test.xrptoolkit.com
 
 # Info
