@@ -14,4 +14,10 @@ node .\getAccountInfo.js
 node .\send.js
 ```
 
-https://test.xrptoolkit.co
+# Usefull Links
+https://xrpl.org/s
+https://xrpl.org/xrp-testnet-faucet.html
+https://test.xrptoolkit.com
+
+# Info
+All information in the code is test data - all addresses, keys, and balances
